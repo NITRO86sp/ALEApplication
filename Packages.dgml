@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@10" Category="CodeSchema_Assembly" Bounds="361.941690472069,-74.0000833333333,232.023333333333,25" CodeSchemaProperty_StrongName="alwfx.Devices.Implementation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(fd72a486-a40f-459b-bbfb-7326d4b39c63.OutputPath)" Group="Collapsed" Label="alwfx.Devices.Implementation.dll" UseManualLocation="True" />
+    <Node Id="@12" Category="CodeSchema_Assembly" Bounds="-91.6433333333333,-73.9999833333333,145.286666666667,25.0000000000001" CodeSchemaProperty_StrongName="alwfx.Devices, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(33e27ca2-7df3-482c-8fd5-1ad7d9aecc72.OutputPath)" Group="Collapsed" Label="alwfx.Devices.dll" UseManualLocation="True" />
+    <Node Id="@14" Category="CodeSchema_Assembly" Bounds="127.778103070176,-133.568952631579,102.43,25" CodeSchemaProperty_StrongName="alwfx, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(ae00f1ec-7f43-4959-b6c4-16c27a53e619.OutputPath)" Group="Collapsed" Label="alwfx.dll" UseManualLocation="True" />
+    <Node Id="@2" Category="CodeSchema_Assembly" Bounds="186.176666666667,-258.383204928856,121.646666666667,25" CodeSchemaProperty_StrongName="alwfx.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(3f72a17e-d0ca-4e27-811f-7c080877e0c4.OutputPath)" Group="Collapsed" Label="alwfx.UI.exe" UseManualLocation="True" />
+    <Node Id="@4" Category="CodeSchema_Assembly" Bounds="414.90495556325,121.320087811634,129.723333333333,25.0000000000001" CodeSchemaProperty_StrongName="alwfx.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(b847b40f-c2f2-45d0-83dd-ef0600be2fec.OutputPath)" Group="Collapsed" Label="alwfx.Data.dll" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Assembly" Bounds="179.693333333333,219.469523078522,146.613333333333,25" CodeSchemaProperty_StrongName="alwfx.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(a78a771d-eca4-422d-9df0-e93fbe7be3ba.OutputPath)" Group="Collapsed" Label="alwfx.Domain.dll" UseManualLocation="True" />
+    <Node Id="@8" Category="CodeSchema_Assembly" Bounds="-140.436907894737,119.944824561403,216.46,25" CodeSchemaProperty_StrongName="alwfx.Data.Implementation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" FilePath="$(92661e02-e443-4af0-bc49-00580788e2b9.OutputPath)" Group="Collapsed" Label="alwfx.Data.Implementation.dll" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="@10" Target="@12" Category="References" Bounds="62.6433333333333,-61.5000599887548,299.298357138735,6.02266496017023E-05" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="61">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+      <Category Ref="Implements" />
+    </Link>
+    <Link Source="@10" Target="@14" Category="Implements" Bounds="238.327239729976,-109.246419758024,176.891954080146,35.2463364246907" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@10" Target="@4" Category="References" Bounds="478.06940154678,-49.0000833333333,1.49762790150294,161.320558949474" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@10" Target="@6" Category="References" Bounds="268.056899828142,-49.0000833333333,200.314828062459,261.326678995474" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="24">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@12" Target="@14" Category="Implements" Bounds="22.5470305686503,-105.97599212442,106.280657176535,31.9760087910863" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@12" Target="@6" Category="References" Bounds="-7.41446921838459,-48.9999833333333,242.71100960147,261.86867716348" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="4" />
+    <Link Source="@2" Target="@10" Category="References" Bounds="262.657165033615,-233.383204928856,192.605572663887,153.767917316429" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="3" />
+    <Link Source="@2" Target="@12" Category="References" Bounds="6.42983759673253,-233.383204928856,222.53706822459,154.256020916062" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="51">
+      <Category Ref="CodeSchema_Calls" />
+    </Link>
+    <Link Source="@2" Target="@14" Category="CodeSchema_Calls" Bounds="190.10999038581,-233.383204928856,50.0791991820757,91.9112337680559" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@2" Target="@4" Category="References" Bounds="253.621246337891,-233.383209228516,212.384460449219,347.300437927246" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@2" Target="@6" Category="References" Bounds="247.156952122703,-233.383204928856,5.57309913327475,443.853437381802" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="7" />
+    <Link Source="@2" Target="@8" Category="References" Bounds="-17.6376463306761,-233.383204928856,255.412619167379,346.086540784911" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="2" />
+    <Link Source="@8" Target="@4" Category="Implements" Bounds="76.0230921052632,132.735551977597,329.881895928326,0.886128718952051" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@8" Target="@6" Category="References" Bounds="3.61421391525288,144.944824561403,205.06717695373,71.5594482361176" IsSourceVirtualized="True" IsTargetVirtualized="True" Weight="26">
+      <Category Ref="CodeSchema_Calls" />
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Assembly" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Assemblies" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Return" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Return types" OutgoingActionLabel="Return types" />
+    <Category Id="File" Label="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Files" />
+    <Category Id="Implements" Label="Implements" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Implemented by" OutgoingActionLabel="Implements" />
+    <Category Id="References" Label="References" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FilePath" Label="File Path" Description="File Path" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsSourceVirtualized" Label="Link Source Virtualized" Description="If true, the link source end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(3f72a17e-d0ca-4e27-811f-7c080877e0c4.OutputPathUri)" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=$(b847b40f-c2f2-45d0-83dd-ef0600be2fec.OutputPathUri)" />
+    <Alias n="4" Id="(@3)" />
+    <Alias n="5" Uri="Assembly=$(a78a771d-eca4-422d-9df0-e93fbe7be3ba.OutputPathUri)" />
+    <Alias n="6" Id="(@5)" />
+    <Alias n="7" Uri="Assembly=$(92661e02-e443-4af0-bc49-00580788e2b9.OutputPathUri)" />
+    <Alias n="8" Id="(@7)" />
+    <Alias n="9" Uri="Assembly=$(fd72a486-a40f-459b-bbfb-7326d4b39c63.OutputPathUri)" />
+    <Alias n="10" Id="(@9)" />
+    <Alias n="11" Uri="Assembly=$(33e27ca2-7df3-482c-8fd5-1ad7d9aecc72.OutputPathUri)" />
+    <Alias n="12" Id="(@11)" />
+    <Alias n="13" Uri="Assembly=$(ae00f1ec-7f43-4959-b6c4-16c27a53e619.OutputPathUri)" />
+    <Alias n="14" Id="(@13)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="References" ValueLabel="True">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Calls" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="33e27ca2-7df3-482c-8fd5-1ad7d9aecc72.OutputPath" Value="D:\Dropbox\Dept. of Informatics and Telecommunications\`ΠΤΥΧΙΑΚΗ\ALEApplication\alwfx.Devices\bin\Debug\alwfx.Devices.dll" />
+    <Path Id="33e27ca2-7df3-482c-8fd5-1ad7d9aecc72.OutputPathUri" Value="file:///D:/Dropbox/Dept. of Informatics and Telecommunications/`ΠΤΥΧΙΑΚΗ/ALEApplication/alwfx.Devices/bin/Debug/alwfx.Devices.dll" />
+    <Path Id="3f72a17e-d0ca-4e27-811f-7c080877e0c4.OutputPath" Value="D:\Dropbox\Dept. of Informatics and Telecommunications\`ΠΤΥΧΙΑΚΗ\ALEApplication\alwfx.UI\bin\Debug\alwfx.UI.exe" />
+    <Path Id="3f72a17e-d0ca-4e27-811f-7c080877e0c4.OutputPathUri" Value="file:///D:/Dropbox/Dept. of Informatics and Telecommunications/`ΠΤΥΧΙΑΚΗ/ALEApplication/alwfx.UI/bin/Debug/alwfx.UI.exe" />
+    <Path Id="92661e02-e443-4af0-bc49-00580788e2b9.OutputPath" Value="D:\Dropbox\Dept. of Informatics and Telecommunications\`ΠΤΥΧΙΑΚΗ\ALEApplication\alwfx.Data.Implementation\bin\Debug\alwfx.Data.Implementation.dll" />
+    <Path Id="92661e02-e443-4af0-bc49-00580788e2b9.OutputPathUri" Value="file:///D:/Dropbox/Dept. of Informatics and Telecommunications/`ΠΤΥΧΙΑΚΗ/ALEApplication/alwfx.Data.Implementation/bin/Debug/alwfx.Data.Implementation.dll" />
+    <Path Id="a78a771d-eca4-422d-9df0-e93fbe7be3ba.OutputPath" Value="D:\Dropbox\Dept. of Informatics and Telecommunications\`ΠΤΥΧΙΑΚΗ\ALEApplication\alwfx.Domain\bin\Debug\alwfx.Domain.dll" />
+    <Path Id="a78a771d-eca4-422d-9df0-e93fbe7be3ba.OutputPathUri" Value="file:///D:/Dropbox/Dept. of Informatics and Telecommunications/`ΠΤΥΧΙΑΚΗ/ALEApplication/alwfx.Domain/bin/Debug/alwfx.Domain.dll" />
+    <Path Id="ae00f1ec-7f43-4959-b6c4-16c27a53e619.OutputPath" Value="D:\Dropbox\Dept. of Informatics and Telecommunications\`ΠΤΥΧΙΑΚΗ\ALEApplication\alwfx\bin\Debug\alwfx.dll" />
+    <Path Id="ae00f1ec-7f43-4959-b6c4-16c27a53e619.OutputPathUri" Value="file:///D:/Dropbox/Dept. of Informatics and Telecommunications/`ΠΤΥΧΙΑΚΗ/ALEApplication/alwfx/bin/Debug/alwfx.dll" />
+    <Path Id="b847b40f-c2f2-45d0-83dd-ef0600be2fec.OutputPath" Value="D:\Dropbox\Dept. of Informatics and Telecommunications\`ΠΤΥΧΙΑΚΗ\ALEApplication\alwfx.Data\bin\Debug\alwfx.Data.dll" />
+    <Path Id="b847b40f-c2f2-45d0-83dd-ef0600be2fec.OutputPathUri" Value="file:///D:/Dropbox/Dept. of Informatics and Telecommunications/`ΠΤΥΧΙΑΚΗ/ALEApplication/alwfx.Data/bin/Debug/alwfx.Data.dll" />
+    <Path Id="fd72a486-a40f-459b-bbfb-7326d4b39c63.OutputPath" Value="D:\Dropbox\Dept. of Informatics and Telecommunications\`ΠΤΥΧΙΑΚΗ\ALEApplication\alwfx.Devices.Implementation\bin\Debug\alwfx.Devices.Implementation.dll" />
+    <Path Id="fd72a486-a40f-459b-bbfb-7326d4b39c63.OutputPathUri" Value="file:///D:/Dropbox/Dept. of Informatics and Telecommunications/`ΠΤΥΧΙΑΚΗ/ALEApplication/alwfx.Devices.Implementation/bin/Debug/alwfx.Devices.Implementation.dll" />
+  </Paths>
+</DirectedGraph>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<devices>
+    <device>
+        <id>1</id>
+        <name>Fridge</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>2000</toNotification>
+        <toAlert>2000</toAlert>
+    </device>
+    <device>
+        <id>2</id>
+        <name>Boiler</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>2000</toNotification>
+        <toAlert>1000</toAlert>
+    </device>
+    <device>
+        <id>3</id>
+        <name>Coffee machine</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>30000</toNotification>
+        <toAlert>10000</toAlert>
+    </device>
+    <device>
+        <id>4</id>
+        <name>Extractor hood</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>180000</toNotification>
+        <toAlert>10000</toAlert>
+    </device>
+    <device>
+        <id>5</id>
+        <name>Kitchen hob 1</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>210000</toNotification>
+        <toAlert>10000</toAlert>
+    </device>
+    <device>
+        <id>6</id>
+        <name>Kitchen hob 2</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>210000</toNotification>
+        <toAlert>10000</toAlert>
+    </device>
+    <device>
+        <id>7</id>
+        <name>Kitchen hob 3</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>210000</toNotification>
+        <toAlert>10000</toAlert>
+    </device>
+    <device>
+        <id>8</id>
+        <name>Kitchen hob 4</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>210000</toNotification>
+        <toAlert>10000</toAlert>
+    </device>
+    <device>
+        <id>9</id>
+        <name>Microwave oven</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>65000</toNotification>
+        <toAlert>5000</toAlert>
+    </device>
+    <device>
+      <id>10</id>
+        <name>Oven</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>5000</toNotification>
+        <toAlert>5000</toAlert>
+    </device>
+    <device>
+        <id>11</id>
+        <name>Sink</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>1000</toNotification>
+        <toAlert>1000</toAlert>
+    </device>
+    <device>
+        <id>12</id>
+        <name>Toaster</name>
+        <mode>Off</mode>
+        <status>Enabled</status>
+        <toNotification>5000</toNotification>
+        <toAlert>1000</toAlert>
+    </device>
+    
+</devices>
